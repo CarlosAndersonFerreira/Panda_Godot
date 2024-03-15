@@ -10265,7 +10265,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
 shape = SubResource("CapsuleShape3D_syhih")
 
 [node name="Panda" type="Node3D" parent="." node_paths=PackedStringArray("_character", "_animation")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.459305, 0.119853, 0.0186767)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0573963, 0.270221, 0.0324697)
 script = ExtResource("2_narl1")
 _character = NodePath("..")
 _animation = NodePath("AnimationPlayer")
